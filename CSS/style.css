@@ -1,0 +1,608 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.body {
+    font-family: 'Arimo', sans-serif;
+}
+
+.preloader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.preloader .preloader_img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* header style start here */
+
+header {
+    background-color: #ee2e24;
+    font-family: 'Arimo', sans-serif;
+    color: white;
+    padding: 8px 0px;
+}
+
+header .latest {
+    width: 30%;
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header .message {
+    width: 70%;
+}
+
+
+/* header ends here */
+
+
+/* nav starts here */
+
+nav {
+    background-color: white;
+}
+
+.nav_fixed {
+    position: fixed;
+    top: 0;
+    left: 90px;
+}
+
+nav .logo {
+    width: 30%;
+}
+
+nav .menu {
+    width: 70%;
+    background-color: #fff;
+}
+
+nav .menu ul {
+    text-align: right;
+}
+
+nav .menu ul li {
+    display: inline-block;
+}
+
+nav .menu ul li a {
+    color: #444;
+    font-family: 'Arimo', sans-serif;
+    text-transform: capitalize;
+    padding: 30px 25px;
+    font-size: 16px;
+    display: block;
+    transition: 0.3s;
+}
+
+nav .menu ul li:hover a {
+    color: red;
+}
+
+nav .menu ul li:last-child a {
+    background-color: #ee2e24;
+    color: white;
+}
+
+#banner img {
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid #d1ecf1;
+}
+
+
+/* about starts here */
+
+#about {
+    padding: 40px;
+    background-color: #fff;
+}
+
+#about .about-img {
+    width: 40%;
+}
+
+#about .about-img img {
+    width: 100%;
+    display: block;
+}
+
+#about .about-text {
+    width: 60%;
+    padding: 0px 30px;
+}
+
+#about .about-text h2 {
+    font-family: 'Arimo', sans-serif;
+    color: #5b6b80;
+    font-size: 32px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+#about .about-text p {
+    font-family: 'Arimo', sans-serif;
+    color: #777;
+    font-size: 16px;
+    padding-top: 12px;
+    line-height: 26px;
+}
+
+
+/* about ends here */
+
+
+/* table starts here */
+
+#seminar {
+    background-color: #f5f5f5;
+}
+
+.card {
+    margin: 10px 10px;
+    padding: 55px 10px;
+}
+
+.card-header {
+    background-color: #dddddda3;
+    font-size: 32px;
+    color: #444;
+    ;
+    border-bottom: none;
+    text-align: center;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    padding: 20px 15px;
+    display: block;
+}
+
+.card-body {
+    background-color: white;
+    padding: 35px 20px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    display: table;
+}
+
+.table th {
+    background-color: #49596d;
+    color: #fff;
+    font-family: 'Arimo', sans-serif;
+    text-align: center;
+    border-right: 1px solid #fff;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 12px 50px;
+    border-bottom: 1px solid #32383e;
+    ;
+}
+
+.table td {
+    text-align: center;
+    font-family: 'Arimo', sans-serif;
+    color: #222;
+    font-size: 16px;
+    border: 1px solid #dee2e6;
+    padding: 10px;
+}
+
+.table tr:nth-child(even) {
+    background-color: #dddddda3;
+    ;
+}
+
+.table td a {
+    text-decoration: none;
+    display: block;
+    background-color: #49596d;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 8px;
+    margin: 0px 42px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.table td:hover a {
+    background-color: #ee2e24;
+}
+
+
+/* table ends here */
+
+
+/* courses starts here */
+
+#courses {
+    padding: 50px 0;
+}
+
+.course-header {
+    margin-bottom: 25px;
+}
+
+.course-header h2 {
+    font-family: 'Arimo', sans-serif;
+    color: #5b6b80;
+    font-size: 32px;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.course-header p {
+    font-family: 'Arimo', sans-serif;
+    color: #777;
+    font-size: 16px;
+}
+
+.course-card {
+    width: 48%;
+    height: 280px;
+    text-align: left;
+    color: #212529;
+    line-height: 26px;
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+    border-right: none;
+    margin-top: 10px;
+    margin-right: 12px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.course-details {
+    width: 60%;
+    padding: 15px 15px 0 0;
+    display: inline;
+}
+
+.course-details h3 {
+    font-family: 'Arimo', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    padding-left: 15px;
+    color: #444;
+    display: inline-block;
+}
+
+.course-details p {
+    font-size: 16px;
+    font-family: 'Arimo', sans-serif;
+    line-height: 26px;
+    padding-top: 15px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    width: 100% display: inline-block;
+}
+
+.course-details a {
+    width: 150px;
+    height: 45px;
+    color: #f5f5f5;
+    background-color: #49596d;
+    line-height: 45px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 0 46px 46px 0;
+    margin-top: 28px;
+    transition: 0.3s;
+    display: block;
+}
+
+.course-details a:hover {
+    background-color: #ee2e24;
+}
+
+.demo-img {
+    width: 40%;
+    height: auto;
+    display: inline-block;
+}
+
+.demo-img img {
+    width: 100%;
+    height: 280px;
+}
+
+
+/* courses ends here */
+
+
+/* gallary starts here */
+
+#gallary {
+    padding: 50px 0;
+}
+
+.gallary-head {
+    margin-bottom: 30px;
+}
+
+.gallary-head h2 {
+    font-family: 'Arimo', sans-serif;
+    color: #5b6b80;
+    font-size: 32px;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.gallary-head p {
+    font-family: 'Arimo', sans-serif;
+    color: #777;
+    font-size: 16px;
+}
+
+.gallary-img {
+    width: 32%;
+    padding-right: 27px;
+    padding-bottom: 25px;
+}
+
+.gallary-img img {
+    width: 100%;
+}
+
+
+/* gallry ends here */
+
+
+/* contact starts here */
+
+#contact {
+    padding: 50px 0;
+}
+
+.contact-head {
+    margin-bottom: 30px;
+}
+
+.contact-head h2 {
+    font-family: 'Arimo', sans-serif;
+    color: #5b6b80;
+    font-size: 32px;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.contact-head p {
+    font-family: 'Arimo', sans-serif;
+    color: #777;
+    font-size: 16px;
+}
+
+.form_input {
+    width: 49%;
+    margin-bottom: 25px;
+}
+
+.form_textarea textarea,
+.form_input input {
+    width: 100%;
+    height: 40px;
+    font-family: 'Arimo', sans-serif;
+    font-size: 1rem;
+    text-indent: 20px;
+    border-radius: 5px;
+    border: 0;
+    border: 1px solid #ced4da;
+}
+
+.form_textarea textarea:focus,
+.form_input input:focus {
+    box-shadow: 0 0 5px rgba(128, 189, 255, 0.8);
+    outline: 0;
+}
+
+.form_textarea {
+    width: 100%;
+}
+
+.form_textarea textarea {
+    height: 100px;
+    font-family: 'Arimo', sans-serif;
+    font-size: 1rem;
+}
+
+#contact form button {
+    width: 135px;
+    height: 45px;
+    color: white;
+    background-color: #49596d;
+    font-family: 'Arimo', sans-serif;
+    font-size: 18px;
+    border-radius: 50px;
+    outline: 0;
+    border: 0;
+    margin: 25px auto;
+    transition: 0.3s;
+}
+
+#contact form button:hover {
+    background-color: #ee2e24;
+}
+
+
+/* contact ends here */
+
+
+/* footer starts here */
+
+footer {
+    padding: 35px 0;
+    background-color: #f5f5f5;
+}
+
+.social_contact {}
+
+.footer_logo,
+.footer_address,
+.social_links {
+    width: 33%;
+}
+
+.footer_logo {
+    text-align: center;
+}
+
+.footer_logo img {
+    margin-bottom: 10px;
+}
+
+.footer_address h3 {
+    color: #4e5e73;
+    font-family: 'Arimo', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.footer_address h3::after {
+    position: absolute;
+    content: '';
+    bottom: 20px;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background: #ddd;
+}
+
+.footer_address p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-size: 1rem;
+    color: #212529;
+    line-height: 1.5;
+}
+
+.social_links h3 {
+    color: #4e5e73;
+    font-family: 'Arimo', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.social_links h3::after {
+    position: absolute;
+    content: '';
+    bottom: 20px;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background: #ddd;
+}
+
+.social_links h5 a {
+    font-family: 'Arimo', sans-serif;
+    color: #444;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    font-size: 18px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.social_links p a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #212529;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    display: inline-block;
+}
+
+.social_links ul.social_icons li {
+    display: inline-block;
+}
+
+.social_links ul.social_icons li span {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #b8b8b8;
+    color: #5c5c5c;
+    text-align: center;
+    margin: 0 5px;
+    line-height: 40px;
+    display: block;
+    transition: 0.3s;
+}
+
+.social_links ul.social_icons li span:hover {
+    background-color: #ee2e24;
+    color: white;
+}
+
+.copyright {
+    padding: 15px;
+    line-height: 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(68, 68, 68, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.backToTop {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    border: none;
+    background-color: #ff1e1e;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
